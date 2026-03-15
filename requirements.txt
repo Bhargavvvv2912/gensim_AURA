@@ -1,7 +1,8 @@
-# Restore legacy build support and use binary-compatible versions
 setuptools<60.0.0
 wheel
 Cython<3.0
-numpy>=1.21.6,<2.0.0
-scipy>=1.7.3,<1.11.0
+numpy==1.26.4
+scipy==1.10.1
+ipython
+# Force install the current directory as the package
 -e .
