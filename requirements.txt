@@ -1,5 +1,7 @@
-Cython>=0.29.21
-numpy==1.19.5
-scipy==1.5.4
-setuptools
+# Restore legacy build support and use binary-compatible versions
+setuptools<60.0.0
 wheel
+Cython<3.0
+numpy>=1.21.6,<2.0.0
+scipy>=1.7.3,<1.11.0
+-e .
